@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
     console.log('prisonschool is running');
-    this.http.get('http://localhost:8080/PrisonSchool/Main').subscribe(val => console.log(val));
+    this.http.get('http://localhost:8080/PrisonSchool/Hello/Main').subscribe(val => console.log(val));
   }
 
 }
